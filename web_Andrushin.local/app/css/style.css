@@ -1,0 +1,55 @@
+/* Пример дополнительного стиля для шапки */
+.navbar-brand img {
+    margin-right: 10px; /* Отступ между изображением и текстом */
+}
+
+.nav-link {
+    font-weight: bold; /* Увеличение жирности текста */
+    font-size: large;
+}
+
+/* Основные стили для шапки */
+.navbar {
+    background-color: #0056b3; /* Более насыщенный синий цвет */
+}
+
+.navbar-brand {
+    font-size: 1.8rem; /* Увеличенный шрифт для названия сайта */
+    font-weight: bold; /* Жирный шрифт */
+    color: white; /* Белый текст */
+}
+
+.navbar-brand img {
+    margin-right: 10px; /* Отступ справа от логотипа */
+    vertical-align: middle; /* Логотип на одном уровне с текстом */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem; /* Увеличенный шрифт для ссылок */
+    color: white !important; /* Цвет ссылок — белый */
+    padding: 10px 15px; /* Дополнительные отступы для ссылок */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #004099; /* Темно-синий фон при наведении */
+    color: #f8f9fa !important; /* Белый текст при наведении */
+    border-radius: 5px; /* Закругленные углы при наведении */
+}
+
+ul.navbar-nav.flex-column {
+    align-items: center;
+}
+
+ul.navbar-nav.flex-column .nav-item {
+    margin-bottom: 10px; /* Отступы между авторами */
+}
+
+/* Для адаптивного дизайна */
+@media (max-width: 992px) {
+    .navbar-brand {
+        font-size: 1.5rem; /* Уменьшение шрифта на маленьких экранах */
+    }
+    .navbar-nav .nav-link {
+        font-size: 1.1rem; /* Уменьшение шрифта ссылок на маленьких экранах */
+    }
+}
